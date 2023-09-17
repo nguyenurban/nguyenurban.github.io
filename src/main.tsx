@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import Root from './routes/root.tsx'
 import ErrorPage from './error-page.tsx'
 import Index from './routes/index.tsx'
