@@ -26,11 +26,28 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
 }
 
+#topbar {
+  background-color: #046950;
+}
+
+#topbar > * {
+  display: inline;
+  padding: 10px;
+}
+
+a {
+  padding: 10px;
+}
+
+img {
+  float: left;
+  margin: 0px 10px;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
