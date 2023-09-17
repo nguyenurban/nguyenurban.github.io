@@ -1,13 +1,13 @@
-import { Outlet } from "react-router-dom"
+import { Outlet, Link } from "react-router-dom"
 
 const Root = () => {
   return (
     <>
     <div id="topbar">
-      <h2>nguyenurban.github.io</h2>
+      <h2><Link to={``}>nguyenurban.github.io</Link></h2>
       <nav>
-        <a>Projects</a>
-        <a>Misc.</a>
+        <Link to={`projects`}>Projects</Link>
+        <Link to={`misc`}>Misc.</Link>
       </nav>
     </div>
     <div id="content">
