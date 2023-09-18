@@ -6,7 +6,7 @@ const Projects = () => {
       <h1>Projects</h1>
       <h2>Warlock's Groove</h2>
       <img src={warlocksgroove} alt="Warlock's Groove gameplay" width="800"/>
-      <div className="description">A rhythm game I worked with a couple of others as a senior capstone project during my time at UW. The general gist was a typical top-down twin stick shooter, but attacks had to be done in time with the music. <br/>
+      <p className="description">A rhythm game I worked with a couple of others as a senior capstone project during my time at UW. The general gist was a typical top-down twin stick shooter, but attacks had to be done in time with the music. <br/>
         We used HaxeFlixel as our game engine at our professor's recommendation. The engine, as well as the language, Haxe, was a
         bit of a learning curve, but I think it went fairly well. Nevertheless, we probably would have prefered a more popular engine in retrospect.<br />
         Frankly, a majority of the class was focused more on aspects of the Agile development cycle. Once we went through a paper prototype and initial development phase,
@@ -14,13 +14,14 @@ const Projects = () => {
         reflection presentations while implementing last sprint's goals. Certainly the most favorite part of game development for any developer, but at least the teacher seemed
         pleased with how we presented our gradual growth of user retention over each sprint. <br />
         We had to borrow all of our graphics as well as a lot of the music given the time constraints (I tried putting in a song I made), but I still think there is some merit in working more with this idea for a game. I would like to make a
-        complete version of this game, as long as it may take. Though, it might take a while learning a new game engine, seeing how Unity is (or has been) going...
+        complete version of this game. Seeing as I don't have anyone in mind to help with graphics and level design, and I would like to take my time getting down music production, this probably won't be for a long time.
+        On top of that Though, it'll also take extra time learning a new game engine, seeing how Unity is (or has been) going...
         
 
-        </div>
-      <div className="link">
+        </p>
+      <em className="link">
         Our repo can be found <a href="https://github.com/laksh-g/Warlocks-Groove">here</a> under one of my teammate's Github 
-      </div>
+      </em>
     </>
   )
 }

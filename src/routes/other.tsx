@@ -3,9 +3,9 @@ import aicertificate from '../assets/images/aicertificate.png'
 const Other = () => {
   return (
     <>
-      <h1>Miscellaneous thoughts</h1>
-      <div className="blurb">Other things worth mentioning or random thoughts of interest go here. Maybe works as a blog of sorts...</div>
-      <h2>AI Skills Certificate Thing</h2>
+      <h1>Posts</h1>
+      <p className="blurb">Things worth mentioning or random thoughts of interest go here. Won't be updated so frequently.</p>
+      <h2>AI Skills Certificate Thing</h2> <h3>September 10th, 2023</h3>
       <img src={aicertificate} alt="Microsoft Learn AI Skills Challenge certificate" width="800"/>
       <p className="description">A while ago a friend told me about Microsoft Learn hosting an event to learn more about machine learning.
       Machine learning as a whole has always resided in that area of being familiar enough, but understanding how it worked always escaped me.

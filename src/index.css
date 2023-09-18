@@ -32,16 +32,28 @@ body {
 }
 
 #topbar {
-  background-color: #046950;
+  background-color: #2f758a;
+  width: 100%;
+  position: fixed;
 }
 
-#topbar > * {
-  display: inline;
+nav > * {
   padding: 10px;
 }
 
-a {
-  padding: 10px;
+nav {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.site-header, nav > * {
+  color: white;
+}
+
+.site-header:hover, nav > *:hover {
+  color: #94ccbb;
+  transition: color 0.25s;
 }
 
 img {
@@ -49,9 +61,11 @@ img {
   margin: 0px 10px;
 }
 h1 {
+  padding-top: 20px;
   font-size: 3.2em;
   line-height: 1.1;
 }
+
 
 button {
   border-radius: 8px;
